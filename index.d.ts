@@ -59,6 +59,7 @@ declare namespace Parser {
     items: (U & Item)[];
     feedUrl?: string;
     description?: string;
+    hubs?: string[];
     itunes?: {
       [key: string]: any;
       image?: string;
