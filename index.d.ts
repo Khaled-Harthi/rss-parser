@@ -63,6 +63,7 @@ declare namespace Parser {
     itunes?: {
       [key: string]: any;
       image?: string;
+      new_feed_url?: string;
       owner?: {
         name?: string;
         email?: string;
